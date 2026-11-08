@@ -1,0 +1,23 @@
+paths:
+  sample_pdfs: data/sample_pdfs
+  vector_db: data/processed/chroma
+  uploads: data/processed/uploads
+embeddings:
+  backend: sentence-transformers   # or: hashing
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+chunking:
+  strategy: recursive              # fixed | sentence | recursive
+  chunk_size: 800                  # characters
+  chunk_overlap: 120
+retrieval:
+  top_k: 4
+  min_score: 0.25                  # cosine similarity below this = "not supported"
+  use_mmr: false
+llm:
+  provider: ollama                 # ollama | extractive (no LLM, quotes best chunks)
+  model: llama3.2:3b
+  temperature: 0.1
+  timeout_s: 120
+security:
+  max_file_mb: 25
+  max_pages: 800

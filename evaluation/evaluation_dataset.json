@@ -1,0 +1,18 @@
+[
+ {"id":1,"question":"What is supervised learning?","expected_answer":"Learning from inputs with correct labels to map inputs to labels.","source":"ml_basics.pdf","page":1},
+ {"id":2,"question":"What is the difference between classification and regression?","expected_answer":"Classification predicts a category; regression predicts a continuous number.","source":"ml_basics.pdf","page":2},
+ {"id":3,"question":"Explain how a random forest makes a prediction.","expected_answer":"Every tree votes; majority class or average value is returned.","source":"ml_basics.pdf","page":3},
+ {"id":4,"question":"Explain gradient descent in simple words.","expected_answer":"Step downhill on the loss function in the opposite direction of the gradient.","source":"ml_basics.pdf","page":4},
+ {"id":5,"question":"What happens if the learning rate is too large?","expected_answer":"The model can overshoot the minimum.","source":"ml_basics.pdf","page":4},
+ {"id":6,"question":"What is the relationship between AI, machine learning and deep learning?","expected_answer":"ML is a subset of AI and deep learning is a subset of ML.","source":"ai_overview.pdf","page":1},
+ {"id":7,"question":"How does backpropagation train a neural network?","expected_answer":"It computes gradients of the loss with respect to each weight.","source":"ai_overview.pdf","page":2},
+ {"id":8,"question":"What is self-attention in a Transformer?","expected_answer":"Each word looks at every other word to decide which are important.","source":"ai_overview.pdf","page":3},
+ {"id":9,"question":"How does RAG reduce hallucination?","expected_answer":"It retrieves relevant passages and asks the LLM to answer using only them.","source":"ai_overview.pdf","page":3},
+ {"id":10,"question":"How do you define a function in Python?","expected_answer":"With the def keyword.","source":"python_primer.pdf","page":1},
+ {"id":11,"question":"What is a list comprehension?","expected_answer":"A one-line way to build a new list.","source":"python_primer.pdf","page":2},
+ {"id":12,"question":"How can missing values be handled?","expected_answer":"Drop rows, fill with mean or median, or use a model-based imputer.","source":"data_science_workflow.pdf","page":2},
+ {"id":13,"question":"What is feature engineering?","expected_answer":"Creating new input columns that help a model learn.","source":"data_science_workflow.pdf","page":2},
+ {"id":14,"question":"What is the purpose of the test set?","expected_answer":"Used once at the end to estimate real-world performance.","source":"data_science_workflow.pdf","page":3},
+ {"id":15,"question":"What is the default rate limit of the Notely API?","expected_answer":"60 requests per minute per key.","source":"notely_api_guide.pdf","page":1},
+ {"id":16,"question":"Which header carries the Notely API key?","expected_answer":"X-Notely-Key","source":"notely_api_guide.pdf","page":1}
+]
